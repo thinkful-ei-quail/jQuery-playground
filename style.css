@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Cardo', serif;
+  color: #c0ccd4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p {
+  margin: 1.3rem 0;
+  line-height: 1.3;
+}
+h1, h2, header {
+ font-family: 'Oswald', sans-serif;
+ text-transform: uppercase;
+}
+h1, h2 {
+  color: #ffce00;
+}
+h1 {
+  font-size: 2rem;
+}
+main {
+  padding: 1rem;
+  background-color: #484d5c;
+  flex: 1;
+}
+.main-nav,
+.footer-nav {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+}
+.main-nav {
+  background-color: #ffce00;
+  justify-content: flex-end;
+}
+.footer-nav {
+  font-size: .8rem;
+  justify-content: center;
+}
+.main-nav-item,
+.footer-nav-item {
+  color: white;
+  font-weight: 700;
+}
+.main-nav-item {
+  padding: 0 1rem;
+}
+.main-nav-item a,
+.footer-nav-item a {
+  color: #484d5c;
+}
+.footer-nav-item:after {
+  content: " | ";
+  color: #484d5c;
+  margin: 0 6px 0 2px;
+}
+.footer-nav-item:last-child:after {
+  content: "";
+}
+
+/* jQuery example styles */
+.altNav {
+  background-color: lime;
+}
+
+.main-nav-item .standout {
+  color: red;
+}
+
+.more-content {
+  display: none;
+}
